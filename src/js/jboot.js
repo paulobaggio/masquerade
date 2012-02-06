@@ -18,6 +18,6 @@ var modules = [
 	];
 
 // jquery must go first
-bootstrap(['https://raw.github.com/dpereira/masquerade/master/lib/jquery.simplemodal.1.4.2.min.js']);
+bootstrap(['https://raw.github.com/dpereira/masquerade/master/lib/jquery-1.7.1.min.js]);
 setTimeout("bootstrap(modules);", 1000);
 setTimeout('jmasq_main();', 4000);
