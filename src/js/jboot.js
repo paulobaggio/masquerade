@@ -12,12 +12,12 @@ function bootstrap(modules)
 }
 
 var modules = [
+	'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js',
 	'https://raw.github.com/dpereira/masquerade/master/lib/jquery.simplemodal.1.4.2.min.js',
 	'https://raw.github.com/drench/blowfish.js/master/blowfish.js',
 	'https://raw.github.com/dpereira/masquerade/master/src/js/jmasq.js'
 	];
 
 // jquery must go first
-bootstrap(['https://raw.github.com/dpereira/masquerade/master/lib/jquery-1.7.1.min.js']);
-setTimeout("bootstrap(modules);", 1000);
+bootstrap(modules);
 setTimeout('jmasq_main();', 4000);
