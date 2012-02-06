@@ -12,8 +12,8 @@ function bootstrap(modules)
 }
 
 var modules = [
-	'http://code.jquery.com/jquery-1.7.1.min.js',
-	'http://simplemodal.googlecode.com/files/jquery.simplemodal.1.4.2.min.js',
+//	'http://code.jquery.com/jquery-1.7.1.min.js',
+//	'http://simplemodal.googlecode.com/files/jquery.simplemodal.1.4.2.min.js',
 	'https://raw.github.com/drench/blowfish.js/master/blowfish.js',
 	'https://raw.github.com/dpereira/masquerade/master/src/js/jmasq.js'
 	];
