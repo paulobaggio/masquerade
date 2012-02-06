@@ -5,6 +5,7 @@
 function bootstrap(modules)
 {
    for(var m in modules) {
+   	  alert("Loading " + m);
       mscript=document.createElement('script');
       mscript.src=m;
       document.body.appendChild(mscript);
