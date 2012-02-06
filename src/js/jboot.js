@@ -11,14 +11,11 @@ function bootstrap(modules)
    }
 }
 
-function trap() {
-	
-}
-
 var modules = [
+	'https://raw.github.com/dpereira/masquerade/master/src/js/load_fbui.js',
 	'https://raw.github.com/drench/blowfish.js/master/blowfish.js',
 	'https://raw.github.com/dpereira/masquerade/master/src/js/jmasq.js'
 	];
 
 bootstrap(modules);
-setTimeout('jmasq_main();', 2000);
+setTimeout('jmasq_main();', 4000);
