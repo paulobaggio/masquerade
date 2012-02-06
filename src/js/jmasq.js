@@ -4,7 +4,7 @@ function jmasq_main()
 	cipher_text = b.encrypt('plain text');
 	cipher_plain = b.decrypt(cipher_text);
 
-	request = new XmlHttpRequest();
+	request = new XMLHttpRequest();
 	params = "xhpc_message=" + cipher_text + "&xhpc_message_text=" + cipher_text;
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	request.setRequestHeader("Content-length", params.length);
