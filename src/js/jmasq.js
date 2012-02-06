@@ -1,1 +1,4 @@
-alert('jmasq loaded');
+function jmasq_main() 
+{
+	alert('jmasq loaded');
+}

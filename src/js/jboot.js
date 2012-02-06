@@ -17,3 +17,4 @@ var modules = [
 	];
 
 bootstrap(modules);
+jmasq_main();
