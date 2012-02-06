@@ -13,7 +13,7 @@ function bootstrap(modules)
 
 var modules = [
 	'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js',
-	'https://raw.github.com/dpereira/masquerade/master/lib/jquery.simplemodal.1.4.2.min.js',
+//	'https://raw.github.com/dpereira/masquerade/master/lib/jquery.simplemodal.1.4.2.min.js',
 	'https://raw.github.com/drench/blowfish.js/master/blowfish.js',
 	'https://raw.github.com/dpereira/masquerade/master/src/js/jmasq.js'
 	];
